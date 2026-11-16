@@ -14,3 +14,6 @@ simplest
 
 # benchmark results
 benchmark_results/
+
+# Native profiler traces can be large and are kept locally.
+traces/
