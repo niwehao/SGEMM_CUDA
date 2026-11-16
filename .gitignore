@@ -15,5 +15,11 @@ simplest
 # benchmark results
 benchmark_results/
 
-# Native profiler traces can be large and are kept locally.
-traces/
+# Track native profiler reports; ignore other generated artifacts.
+traces/**
+!traces/**/
+!traces/**/*.nsys-rep
+!traces/**/*.ncu-rep
+!traces/**/*.ncu-repz
+traces/.DS_Store
+traces/.viewer-copies/
